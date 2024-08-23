@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>URL Parameter Extractor</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>URL Parameter Extractor</h1>
+      <div class="form-group">
+        <label for="urlInput">Enter URL:</label>
+        <input type="text" id="urlInput" placeholder="Enter a URL here" />
+      </div>
+      <div class="form-group">
+        <label for="paramInput">Enter Parameter Name:</label>
+        <input type="text" id="paramInput" placeholder="Enter parameter name" />
+      </div>
+      <button onclick="extractParameter()">Get Parameter Value</button>
+      <div class="result" id="result"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
